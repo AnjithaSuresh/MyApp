@@ -19,6 +19,15 @@ public class MyClass {
 	public String toString() {
 		return "MyClass [name=" + name + ", location=" + location + "]";
 	}
+	public MyClass(String name, String location) {
+		super();
+		this.name = name;
+		this.location = location;
+	}
+	public MyClass() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 	
